@@ -9,7 +9,7 @@
       "name": "w3-plugin",
       "description": "MCP server plugin for WorkWideWeb project management with file listing and command execution capabilities",
       "version": "1.0.0",
-      "source": "./plugin.json"
+      "source": "./.claude-plugin"
     }
   ]
 }
