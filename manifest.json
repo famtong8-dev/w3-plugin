@@ -1,0 +1,14 @@
+{
+  "name": "w3-plugin",
+  "version": "1.0.0",
+  "description": "Automation plugin for Claude Code",
+  "author": "famtong8-dev",
+  "type": "mcp",
+  "entrypoint": "mcp.json",
+  "icon": "icon.png",
+  "permissions": [
+    "shell",
+    "filesystem",
+    "network"
+  ]
+}
