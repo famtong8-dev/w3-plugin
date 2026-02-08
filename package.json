@@ -1,7 +1,8 @@
 {
   "name": "w3-plugin",
-  "version": "0.1.0",
-  "description": "WorkWideWeb Plugin",
+  "version": "1.0.0",
+  "description": "MCP server plugin for WorkWideWeb project management with file listing and command execution capabilities",
+  "displayName": "WorkWideWeb Management Plugin",
   "homepage": "https://github.com/famtong8-dev/w3-plugin#readme",
   "bugs": {
     "url": "https://github.com/famtong8-dev/w3-plugin/issues"
@@ -11,14 +12,27 @@
     "url": "git+https://github.com/famtong8-dev/w3-plugin.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": {
+    "name": "famtong8-dev",
+    "url": "https://github.com/famtong8-dev"
+  },
   "type": "commonjs",
   "main": "server.js",
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "automation",
+    "file-management",
+    "workflow"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

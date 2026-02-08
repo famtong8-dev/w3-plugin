@@ -1,0 +1,9 @@
+{
+  "tools": [
+    {
+      "name": "list_files",
+      "description": "List files in directory",
+      "command": "ls"
+    }
+  ]
+}
