@@ -1,0 +1,15 @@
+{
+  "name": "w3-marketplace",
+  "owner": {
+    "name": "famtong8-dev",
+    "url": "https://github.com/famtong8-dev"
+  },
+  "plugins": [
+    {
+      "name": "w3-plugin",
+      "description": "MCP server plugin for WorkWideWeb project management with file listing and command execution capabilities",
+      "version": "1.0.0",
+      "source": "./plugin.json"
+    }
+  ]
+}
